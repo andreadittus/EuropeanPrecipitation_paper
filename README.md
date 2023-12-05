@@ -40,20 +40,25 @@ Note futControl is used to reflect the parallels to piControl (fixed external fo
 
  * prep2 Jet_lat.ipynb: calculate jet time series and save to netcdf
 
- * prep3 Regional_analysis-REAL-Copy2: calculate precipitation for different seasons and IPCC regions following Iturbide et al., save as timeseries input for later scripts 
+ * prep3 Regional_preproc.ipynb: calculate precipitation for different seasons and IPCC regions following Iturbide et al., save as timeseries input for later scripts 
 
 ## Figures: 
 
  * Figure 1:
-	- This figure can be reproduced by running the script named: Land_sea_warmingratio-Copy1
+	- This figure can be reproduced by running the script named: Figure1.ipynb	
 
  * Figure 2:
-    - This figure can be reproduced by running the script named: Summary_fig.ipynb
+    - This figure can be reproduced by running the script named: Figure2.ipynb	
 
  * Figures 3 and 4: 
 
-	- These figures can be reproduced by running the script named: Figures3a4_r1.ipynb
+	- These figures can be reproduced by running the script named: Figures3and4.ipynb
 	- Input:  the regional time series and jet time series, as well as the intermediate model data structure / files (output of pp1, pp2 and pp3)
 
- * Supplementary figures: 
+ * Supplementary figures:
+   - Figure S1: Figures3and4.ipynb using global domain
+   - Figure S2: Included in Figure1.ipynb
+   - Figure S3: SAT_AMOC_regression.ipynb
+   - Figure S4: As Figure 2 with different trend length
+   - Figure S5 & S6: Figures3and4.ipynb with different values for length and season
 
