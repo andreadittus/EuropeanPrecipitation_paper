@@ -15,7 +15,7 @@ Variables used:
 For peer review, data are labelled by model internal suite-id, see keys below (e.g. 'bw848', etc.)
 The concatenated files are provided for peer-review (see prep1 below).
 
-The final data archive upon publication will be structured as follows: 
+The CEDA data archive is structured as follows: 
 
 Filenames of fixed concentration runs (for full dataset to be published on CEDA):
 r1i1p1f2 (suite-id: u-bq777): 2014 in historical 
